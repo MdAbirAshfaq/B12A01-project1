@@ -91,13 +91,38 @@ h3{
     padding: 8px 24px;
     font-weight: normal;
 }
-.productive-user{
-    display: flex;
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #252432;
+    align-items: center;
+    text-align: center;
 }
+.productive-user{
+    margin-top: 150px; 
+    background-color: #dad9fb;
+    border-radius: 5px;
+    padding-top:1%;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: auto;
+}
+.bg-color{
+
+}
+
+.items-content{
+    display: flex;
+    justify-content: space-around;
+    text-align: top;
+}
+
 .item-title{
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
+    padding:0;
+    margin: 0;
 }
 .item-description{
     font-size: 20px;
