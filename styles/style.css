@@ -17,7 +17,7 @@ nav{
 
 h3{
     color:#4E47FF ;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .btn{
@@ -34,7 +34,7 @@ h3{
 .a-btn{
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 20px;
     cursor: pointer;
     transition: background 0.25s ease;
@@ -77,12 +77,12 @@ h3{
     padding-right:50px;
 }
 .main-title{
-    font-size: 38px;
+    font-size: 45px;
     font-weight: bold;
     color: #252432;
 }
 .main-content{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400px;
     color: #59575b98;
 }
@@ -234,4 +234,26 @@ input text{
 }
 .sign-bg{
     background-color: #f0effb;
+}
+.cs{
+    font-size: 50px;
+    font-weight: bold;
+    color: #252432;
+    align-content: center;
+    align-items: center;
+    text-align: top;
+}
+.cs1{
+    font-size: 17px;
+    font-weight: normal;
+    color: #57565898;
+}
+.cs-main{
+    text-align: center;
+}
+.cs-img{
+    margin-top: 25px;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
 }
