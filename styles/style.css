@@ -28,16 +28,24 @@ h3{
     text-decoration: none;
     padding: 9px 35px;
     font-weight: normal;
+    cursor: pointer;
+    transition: background 0.25s ease;
 }
 .a-btn{
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 20px;
+    cursor: pointer;
+    transition: background 0.25s ease;
 }
-/*button:hover {
-  color: yellowgreen;
-} */
+.btn:hover {
+  background: #3d34e0;
+  font-size: 22px
+}
+.a-btn:hover{
+    color: yellow;
+}
 .banner-title{
     text-align: center;
     padding: 0 200px;
@@ -61,6 +69,8 @@ h3{
 .main{
     padding-top: 260px;
     padding-bottom: 4px;
+    background-color:#f0effb;
+;
 }
 .div-content{
     padding-left:150px;
@@ -90,6 +100,8 @@ h3{
     text-decoration: none;
     padding: 8px 24px;
     font-weight: normal;
+    cursor: pointer;
+    transition: background 0.25s ease;
 }
 .section-title{
     font-size: 40px;
@@ -100,7 +112,7 @@ h3{
 }
 .productive-user{
     margin-top: 150px; 
-    background-color: #dad9fb;
+    background-color: #d3d1f8;
     border-radius: 5px;
     padding-top:1%;
     margin-left: 150px;
@@ -133,6 +145,7 @@ h3{
 }
 .review{
     margin-top: 110px;
+    margin-bottom: 150px;
 }
 .user-title{
     font-size: 17px;
@@ -148,6 +161,7 @@ h3{
     padding-top:24px;
     padding-left: 24px;
     width: 330px;
+    border-radius: 5px;
 }
 .main-review{
     display: flex;
@@ -185,4 +199,39 @@ h6{
     font-weight: normal;
     color: #57565898;
     gap: 20px;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 300px;
+    text-align: center;
+    margin-right: 70px;
+    margin-left: 70px;
+
+
+}
+h1{
+    font-size: 88px;
+    font-weight: bold;
+}
+input{
+    height: 62px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    width: 280px;
+    margin-bottom: 5px;
+    border: none;
+    margin-right: 80px;
+}
+input text{
+    font-size: 80px;
+}
+.asd{
+    display: flex;
+    justify-content: space-around;
+    text-wrap: wrap;
+}
+.sign-bg{
+    background-color: #f0effb;
 }
