@@ -107,10 +107,6 @@ h3{
     margin-right: 150px;
     height: auto;
 }
-.bg-color{
-
-}
-
 .items-content{
     display: flex;
     justify-content: space-around;
@@ -127,5 +123,43 @@ h3{
 .item-description{
     font-size: 20px;
     font-weight: 400px;
+    color: #59575b98;
+}
+.user-ti{
+    font-size: 32px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+.review{
+    margin-top: 110px;
+}
+.user-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+.user-review{
+    font-size: 13px;
+    font-weight:normal;
+}
+.user{
+    border: black;
+    background-color: rgb(254, 251, 251);
+    padding-top:24px;
+    padding-left: 24px;
+    width: 330px;
+}
+.main-review{
+    display: flex;
+    text-wrap: wrap;
+    justify-content:space-around ;
+}
+.ok-item{
+    display: flex;
+    align-items: center;
+}
+.ok-title{
+     font-size: 12px;
+    font-weight: bold;
     color: #59575b98;
 }
