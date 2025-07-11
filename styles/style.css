@@ -159,7 +159,30 @@ h3{
     align-items: center;
 }
 .ok-title{
-     font-size: 12px;
+    font-size: 12px;
     font-weight: bold;
     color: #59575b98;
+}
+.footer-main{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-title{
+    font-size: 88px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+h6{
+    font-size: 14px;
+    font-weight: normal;
+    color: #57565898;
+}
+.foot{
+    display: flex;
+    padding-left: 450px;
+    padding-top: 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #57565898;
+    gap: 20px;
 }
